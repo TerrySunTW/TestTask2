@@ -1,8 +1,4 @@
 FROM python:latest 
-RUN apt-get update && apt-get install -y \
-    gpg-agent \
-    wget \
-RUN apt-get update && apt-get install -y 
 
 WORKDIR /usr/src/app
 
